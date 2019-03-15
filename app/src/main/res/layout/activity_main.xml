@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grid_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="150dp"
+    android:columnCount="3"
+    android:rowCount="3"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/image_1"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:src="@drawable/n1" />
+
+    <ImageView
+        android:id="@+id/image_2"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:src="@drawable/n2" />
+
+    <ImageView
+        android:id="@+id/image_3"
+
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:src="@drawable/n3" />
+
+    <ImageView
+        android:id="@+id/image_4"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:src="@drawable/n4" />
+
+    <ImageView
+        android:id="@+id/image_5"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:src="@drawable/n5" />
+
+    <ImageView
+        android:id="@+id/image_6"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:src="@drawable/n6" />
+
+    <ImageView
+        android:id="@+id/image_7"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:src="@drawable/n7" />
+
+    <ImageView
+        android:id="@+id/image_8"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:src="@drawable/n8" />
+
+    <ImageView
+        android:id="@+id/image_9"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:src="@drawable/n9" />
+
+</GridLayout>
+
